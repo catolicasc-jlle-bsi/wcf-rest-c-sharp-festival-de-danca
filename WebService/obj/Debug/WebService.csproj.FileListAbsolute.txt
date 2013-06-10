@@ -1,0 +1,10 @@
+c:\users\gabriel.lima\documents\visual studio 2010\Projects\Catolica.FestivalDeDanca.WCF\WebService\bin\WebService.dll
+c:\users\gabriel.lima\documents\visual studio 2010\Projects\Catolica.FestivalDeDanca.WCF\WebService\bin\WebService.pdb
+c:\users\gabriel.lima\documents\visual studio 2010\Projects\Catolica.FestivalDeDanca.WCF\WebService\bin\BusinessObject.dll
+c:\users\gabriel.lima\documents\visual studio 2010\Projects\Catolica.FestivalDeDanca.WCF\WebService\bin\Db4objects.Db4o.dll
+c:\users\gabriel.lima\documents\visual studio 2010\Projects\Catolica.FestivalDeDanca.WCF\WebService\bin\Db4objects.Db4o.Linq.dll
+c:\users\gabriel.lima\documents\visual studio 2010\Projects\Catolica.FestivalDeDanca.WCF\WebService\bin\HtmlAgilityPack.dll
+c:\users\gabriel.lima\documents\visual studio 2010\Projects\Catolica.FestivalDeDanca.WCF\WebService\bin\Newtonsoft.Json.dll
+c:\users\gabriel.lima\documents\visual studio 2010\Projects\Catolica.FestivalDeDanca.WCF\WebService\obj\Debug\WebService.csprojResolveAssemblyReference.cache
+c:\users\gabriel.lima\documents\visual studio 2010\Projects\Catolica.FestivalDeDanca.WCF\WebService\obj\Debug\WebService.dll
+c:\users\gabriel.lima\documents\visual studio 2010\Projects\Catolica.FestivalDeDanca.WCF\WebService\obj\Debug\WebService.pdb
