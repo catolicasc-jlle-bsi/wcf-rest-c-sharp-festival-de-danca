@@ -88,6 +88,12 @@ namespace WebService
             return JsonConvert.SerializeObject(
                 new ApresentationController().SelectAll<Apresentation>());
         }
-        
+
+
+
+        public string GetTest()
+        {
+            return "OK";
+        }
     }
 }

@@ -14,13 +14,11 @@ namespace WebService
             Method = "GET",
             RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
         void Seeds();
-
-        /*
-        [WebInvoke(UriTemplate = "/Registration",
+        
+        [WebInvoke(UriTemplate = "/GetTest",
             Method = "GET",
             RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
-        string Registration();
-        */
+        string GetTest();
 
         [WebInvoke(UriTemplate = "/AllVotes",
             Method = "GET",
