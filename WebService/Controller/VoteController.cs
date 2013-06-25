@@ -10,15 +10,15 @@ namespace WebService.Controller
 {
     public class VoteController : BasicOperations
     {
-
+        /*
         private bool IsValid(Vote vote)
         {
-            /*
+            
             var query = _database.AsQueryable<Vote>();
             var valid = (from q in query
                          where q.Apresentation.Equals(vote.Apresentation)
                          select q);
-            */
+            
             return true;
         }
 
@@ -27,5 +27,6 @@ namespace WebService.Controller
             if (IsValid(vote))
                 base.Save(vote);
         }
+        */
     }
 }
