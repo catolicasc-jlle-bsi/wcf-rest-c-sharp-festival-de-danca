@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.ServiceModel;
@@ -13,31 +13,32 @@ namespace WebService
         [WebInvoke(UriTemplate = "/Seeds",
             Method = "GET",
             RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
-        void Seeds();
-        
-        [WebInvoke(UriTemplate = "/GetTest",
+        string Seeds();
+
+        [WebInvoke(UriTemplate = "/GetConnection",
             Method = "GET",
             RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
-        string GetTest();
+        string GetConnection();
 
         [WebInvoke(UriTemplate = "/AllVotes",
             Method = "GET",
             RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
         string AllVotes();
 
-        [WebInvoke(UriTemplate = "/CurrentApresentation/{date}",
+        [WebInvoke(UriTemplate = "/CurrentApresentation?date={interval}",
             Method = "GET",
             RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
-        string CurrentApresentation(string date);
+        string CurrentApresentation(string interval);
 
         [WebInvoke(UriTemplate = "/UploadVote/{vote}",
-            Method = "GET",
+            Method = "POST",
             RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
         string UploadVote(string vote);
 
-        [WebInvoke(UriTemplate = "/AllPresentations",
+        //[WebInvoke(UriTemplate = "/HistoryPresentations?date={date}&time={time}",
+        [WebInvoke(UriTemplate = "/HistoryPresentations?date={interval}",
             Method = "GET",
             RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
-        string AllPresentations();
+        string HistoryPresentations(string interval);
     }
 }
